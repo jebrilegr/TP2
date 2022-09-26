@@ -11,7 +11,7 @@ else:
     print(f"L'année {annee} n'est pas bissextile. ")
     isbissxtile=False
 
-if(not(1<=mois and mois<=12)):
+if not(1 <= mois <= 12):
     print(f"Numéro de mois incorrect : {mois}")
 
 if(mois==2):
