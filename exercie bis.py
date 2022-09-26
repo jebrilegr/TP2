@@ -19,3 +19,8 @@ if(mois==2):
         nbjours= 29
     else:
         nbjours= 28
+if(mois==1 or mois==3 or mois==5 or mois==7 or mois==8 or mois==10 or mois==12):
+    nbjours=31
+if(mois==4 or mois==6 or mois==9 or mois==11 ):
+    nbjours=30
+
